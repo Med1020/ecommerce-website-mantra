@@ -1,0 +1,122 @@
+// import { v4 as uuid } from "uuid";
+
+/**
+ * Product Database can be added here.
+ * You can add products of your wish with different attributes
+ * */
+
+export const products = [
+  {
+    _id: "1fff22ef-e815-4748-b8ed-612e70839c8f",
+    productName: "Allen Solly Woman",
+    price: "1374",
+    description: "Cream Coloured Solid Shirt Dress",
+    categoryName: "women",
+    subCategory: "dresses",
+    image: "https://picsum.photos/id/32/200",
+    rating: 4.5,
+  },
+  {
+    _id: "7c5668ad-e2d5-4c98-9521-02449ec1a4b7",
+    productName: "MANGO",
+    price: "2605",
+    description: "Red & White Twisted Detail Striped Maxi Dress",
+    categoryName: "women",
+    subCategory: "dresses",
+    image: "https://picsum.photos/id/22/200",
+    rating: 3.5,
+  },
+  {
+    _id: "a9cb83c3-a1ca-4b7a-bde9-816f1e9044ff",
+    productName: "H&M",
+    price: "1499",
+    description: "Twist-Detail Dress",
+    categoryName: "women",
+    subCategory: "dresses",
+    image: "https://picsum.photos/id/12/200",
+    rating: 4.2,
+  },
+  {
+    _id: "34aabf66-2823-49a4-810b-399c89c4de43",
+    productName: "ONLY",
+    price: "2959",
+    description:
+      "Tropical Printed V- Neck Smocked Detail Puff Sleeves Fit & Flare Dress",
+    categoryName: "women",
+    subCategory: "dresses",
+    image: "https://picsum.photos/id/52/200",
+    rating: 4,
+  },
+  {
+    _id: "d5b76252-be96-4453-a3f0-85ad4423eb25",
+    productName: "Vero Moda",
+    price: "2099",
+    description: "Floral Printed Wrap Dress",
+    categoryName: "women",
+    subCategory: "dresses",
+    image: "https://picsum.photos/id/44/200",
+    rating: 5,
+  },
+  {
+    _id: "50276c62-d5d2-44b4-aa75-0890d119f60e",
+    productName: "Chemistry",
+    price: "299",
+    description: "Maroon Pure Cotton Mandarin Collar Roll-Up Sleeves Top",
+    categoryName: "women",
+    subCategory: "tops",
+    image: "https://picsum.photos/id/45/200",
+    rating: 3.2,
+  },
+  {
+    _id: "8f68f7c3-350a-4b75-9b36-5ab161771ef1",
+    productName: "Peter England Casuals",
+    price: "699",
+    description: "Men Striped Slim Fit T-shirt",
+    categoryName: "men",
+    subCategory: "T-Shirts",
+    image: "https://picsum.photos/id/45/200",
+    rating: 2.9,
+  },
+
+  {
+    _id: "8335be9a-5582-4099-982d-45ca76157b45",
+    productName: "Louis Philippe Sport",
+    price: "899",
+    description: "Men Polo Collar Slim Fit T-shirt",
+    categoryName: "men",
+    subCategory: "T-Shirts",
+    image: "https://picsum.photos/id/45/200",
+    rating: 4.8,
+  },
+  {
+    _id: "ba82b7ca-cf49-4c75-9faa-9f6c6b9762ee",
+    productName: "U.S. Polo Assn. Denim Co.",
+    price: "1499",
+    description:
+      "U S Polo Assn Denim Co Men White Brand Logo Printed Polo Collar Pure Cotton T-shirt",
+    categoryName: "men",
+    subCategory: "T-Shirts",
+    image: "https://picsum.photos/id/45/200",
+    rating: 4.1,
+  },
+  {
+    _id: "ab116ef7-de1c-478a-9cd6-ef4c1de26e1c",
+    productName: "Calvin Klein Jeans",
+    price: "1429",
+    description: "Men Brand Logo Pure Cotton T-shirt",
+    categoryName: "men",
+    subCategory: "T-Shirts",
+    image: "https://picsum.photos/id/45/200",
+    rating: 3.8,
+  },
+  {
+    _id: "a7543a97-18a6-41e5-a4fa-bb960aa15fc7",
+    productName: "H&M",
+    price: "499",
+    description: "Men Regular Fit Round-Neck T-shirt",
+    categoryName: "men",
+    subCategory: "T-Shirts",
+    image: "https://picsum.photos/id/45/200",
+    rating: 3,
+  },
+];
